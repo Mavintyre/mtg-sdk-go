@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jarcoal/httpmock.v1"
+	"github.com/jarcoal/httpmock"
 )
 
 func NewStringResponderWithHeader(status int, body string, header map[string]string) httpmock.Responder {
