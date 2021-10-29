@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/jarcoal/httpmock.v1"
+	"github.com/jarcoal/httpmock"
 )
 
 func Test_GetTypes(t *testing.T) {
